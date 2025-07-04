@@ -1,13 +1,15 @@
-# JSON Tree Viewer
+# JSON 树状查看器
 
-A command-line tool to visualize JSON files as a tree structure with color highlighting.
+一款可在命令行中将 JSON 文件以带有颜色高亮的树形结构展示的工具。
 
-## Features
-- Colorized output (simplified and rich modes)
-- Configurable maximum depth
-- Read from file or standard input
-- Clean tree visualization with Unicode characters
+## 功能
+- 彩色输出（简化模式和丰富模式）
+- 可配置的最大深度
+- 可从文件或标准输入读取
+- 使用 Unicode 字符呈现简洁的树形可视化效果
 
-## Build
+## 构建
+
 ```bash
 make
+```
