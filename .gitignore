@@ -1,0 +1,30 @@
+# 编译生成文件
+*.o
+*.a
+*.so
+*.out
+
+# 可执行文件
+json_tree
+
+# 构建目录
+build/
+dist/
+
+# 编辑器文件
+.vscode/
+.idea/
+*.swp
+*~
+
+# 系统文件
+.DS_Store
+
+# 依赖目录
+deps/
+
+# 日志文件
+*.log
+
+# 临时文件
+*.tmp

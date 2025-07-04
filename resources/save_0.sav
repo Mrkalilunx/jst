@@ -1,0 +1,1450 @@
+{
+  "LastPlayedRound": {
+    "SavedCards": [
+      {
+        "UniqueId": "bda0168e-030",
+        "ParentUniqueId": "",
+        "BoardId": "main",
+        "CardPrefabId": "villager",
+        "CardPosition": {
+          "x": 0.9335225224494934,
+          "y": 0.0015193799044936896,
+          "z": -1.5193798542022706
+        },
+        "FaceUp": true,
+        "IsFoil": false,
+        "ExtraCardData": [
+          {
+            "AttributeId": "health",
+            "StringValue": "",
+            "IntValue": -1,
+            "FloatValue": 0.0,
+            "VectorValue": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          {
+            "AttributeId": "attack_timer",
+            "StringValue": "",
+            "IntValue": 0,
+            "FloatValue": 1.6744794845581055,
+            "VectorValue": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          {
+            "AttributeId": "combat_start_position",
+            "StringValue": "",
+            "IntValue": 0,
+            "FloatValue": 0.0,
+            "VectorValue": {
+              "x": 0.44201144576072695,
+              "y": -0.00042033809586428106,
+              "z": 0.42033806443214419
+            }
+          }
+        ],
+        "TimerRunning": false,
+        "CurrentTimerTime": 0.0,
+        "TargetTimerTime": 0.0,
+        "TimerActionId": "",
+        "TimerBlueprintId": "",
+        "SubprintIndex": 0,
+        "Status": "",
+        "StatusEffects": []
+      },
+      {
+        "UniqueId": "bda0168e-030",
+        "ParentUniqueId": "bda0168e-030",
+        "BoardId": "main",
+        "CardPrefabId": "villager",
+        "CardPosition": {
+          "x": 0.9335225224494934,
+          "y": 0.02551938220858574,
+          "z": -1.9993798732757569
+        },
+        "FaceUp": true,
+        "IsFoil": false,
+        "ExtraCardData": [
+          {
+            "AttributeId": "health",
+            "StringValue": "",
+            "IntValue": -1,
+            "FloatValue": 0.0,
+            "VectorValue": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          {
+            "AttributeId": "attack_timer",
+            "StringValue": "",
+            "IntValue": 0,
+            "FloatValue": 0.09736108779907227,
+            "VectorValue": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          {
+            "AttributeId": "combat_start_position",
+            "StringValue": "",
+            "IntValue": 0,
+            "FloatValue": 0.0,
+            "VectorValue": {
+              "x": -0.5269374847412109,
+              "y": 0.0014116681413725019,
+              "z": -1.411668062210083
+            }
+          }
+        ],
+        "TimerRunning": false,
+        "CurrentTimerTime": 0.0,
+        "TargetTimerTime": 0.0,
+        "TimerActionId": "",
+        "TimerBlueprintId": "",
+        "SubprintIndex": 0,
+        "Status": "",
+        "StatusEffects": []
+      },
+      {
+        "UniqueId": "bda0168e-030",
+        "ParentUniqueId": "bda0168e-030",
+        "BoardId": "main",
+        "CardPrefabId": "villager",
+        "CardPosition": {
+          "x": 0.9335225224494934,
+          "y": 0.0195193812251091,
+          "z": -1.8793798685073853
+        },
+        "FaceUp": true,
+        "IsFoil": false,
+        "ExtraCardData": [
+          {
+            "AttributeId": "health",
+            "StringValue": "",
+            "IntValue": -1,
+            "FloatValue": 0.0,
+            "VectorValue": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          {
+            "AttributeId": "attack_timer",
+            "StringValue": "",
+            "IntValue": 0,
+            "FloatValue": 0.5678611397743225,
+            "VectorValue": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          {
+            "AttributeId": "combat_start_position",
+            "StringValue": "",
+            "IntValue": 0,
+            "FloatValue": 0.0,
+            "VectorValue": {
+              "x": -0.6016616821289063,
+              "y": 0.001288984902203083,
+              "z": -1.2889848947525025
+            }
+          }
+        ],
+        "TimerRunning": false,
+        "CurrentTimerTime": 0.0,
+        "TargetTimerTime": 0.0,
+        "TimerActionId": "",
+        "TimerBlueprintId": "",
+        "SubprintIndex": 0,
+        "Status": "",
+        "StatusEffects": []
+      },
+      {
+        "UniqueId": "bda0168e-030",
+        "ParentUniqueId": "bda0168e-030",
+        "BoardId": "main",
+        "CardPrefabId": "villager",
+        "CardPosition": {
+          "x": 0.9335225224494934,
+          "y": 0.03151938319206238,
+          "z": -2.119379758834839
+        },
+        "FaceUp": true,
+        "IsFoil": false,
+        "ExtraCardData": [
+          {
+            "AttributeId": "health",
+            "StringValue": "",
+            "IntValue": -1,
+            "FloatValue": 0.0,
+            "VectorValue": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          {
+            "AttributeId": "attack_timer",
+            "StringValue": "",
+            "IntValue": 0,
+            "FloatValue": 2.0973610877990724,
+            "VectorValue": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          {
+            "AttributeId": "combat_start_position",
+            "StringValue": "",
+            "IntValue": 0,
+            "FloatValue": 0.0,
+            "VectorValue": {
+              "x": -0.5823398232460022,
+              "y": 0.0013816563878208399,
+              "z": -1.381656289100647
+            }
+          }
+        ],
+        "TimerRunning": false,
+        "CurrentTimerTime": 0.0,
+        "TargetTimerTime": 0.0,
+        "TimerActionId": "",
+        "TimerBlueprintId": "",
+        "SubprintIndex": 0,
+        "Status": "",
+        "StatusEffects": []
+      },
+      {
+        "UniqueId": "bda0168e-030",
+        "ParentUniqueId": "bda0168e-030",
+        "BoardId": "main",
+        "CardPrefabId": "villager",
+        "CardPosition": {
+          "x": 0.9335225224494934,
+          "y": 0.013519380241632462,
+          "z": -1.7593798637390137
+        },
+        "FaceUp": true,
+        "IsFoil": false,
+        "ExtraCardData": [
+          {
+            "AttributeId": "health",
+            "StringValue": "",
+            "IntValue": -1,
+            "FloatValue": 0.0,
+            "VectorValue": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          {
+            "AttributeId": "attack_timer",
+            "StringValue": "",
+            "IntValue": 0,
+            "FloatValue": 2.0973610877990724,
+            "VectorValue": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          {
+            "AttributeId": "combat_start_position",
+            "StringValue": "",
+            "IntValue": 0,
+            "FloatValue": 0.0,
+            "VectorValue": {
+              "x": -0.5113857388496399,
+              "y": 0.0015522241592407227,
+              "z": -1.552224040031433
+            }
+          }
+        ],
+        "TimerRunning": false,
+        "CurrentTimerTime": 0.0,
+        "TargetTimerTime": 0.0,
+        "TimerActionId": "",
+        "TimerBlueprintId": "",
+        "SubprintIndex": 0,
+        "Status": "",
+        "StatusEffects": []
+      },
+      {
+        "UniqueId": "bda0168e-030",
+        "ParentUniqueId": "bda0168e-030",
+        "BoardId": "main",
+        "CardPrefabId": "villager",
+        "CardPosition": {
+          "x": 0.9335225224494934,
+          "y": 0.007519380189478397,
+          "z": -1.639379858970642
+        },
+        "FaceUp": true,
+        "IsFoil": false,
+        "ExtraCardData": [
+          {
+            "AttributeId": "health",
+            "StringValue": "",
+            "IntValue": -1,
+            "FloatValue": 0.0,
+            "VectorValue": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          {
+            "AttributeId": "attack_timer",
+            "StringValue": "",
+            "IntValue": 0,
+            "FloatValue": 0.0,
+            "VectorValue": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          {
+            "AttributeId": "combat_start_position",
+            "StringValue": "",
+            "IntValue": 0,
+            "FloatValue": 0.0,
+            "VectorValue": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          }
+        ],
+        "TimerRunning": false,
+        "CurrentTimerTime": 0.0,
+        "TargetTimerTime": 0.0,
+        "TimerActionId": "",
+        "TimerBlueprintId": "",
+        "SubprintIndex": 0,
+        "Status": "",
+        "StatusEffects": []
+      },
+      {
+        "UniqueId": "bda0168e-030",
+        "ParentUniqueId": "bda0168e-030",
+        "BoardId": "main",
+        "CardPrefabId": "villager",
+        "CardPosition": {
+          "x": 0.9335225224494934,
+          "y": 0.03751938417553902,
+          "z": -2.239379644393921
+        },
+        "FaceUp": true,
+        "IsFoil": false,
+        "ExtraCardData": [
+          {
+            "AttributeId": "health",
+            "StringValue": "",
+            "IntValue": -1,
+            "FloatValue": 0.0,
+            "VectorValue": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          {
+            "AttributeId": "attack_timer",
+            "StringValue": "",
+            "IntValue": 0,
+            "FloatValue": 2.0973610877990724,
+            "VectorValue": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          {
+            "AttributeId": "combat_start_position",
+            "StringValue": "",
+            "IntValue": 0,
+            "FloatValue": 0.0,
+            "VectorValue": {
+              "x": -0.40124475955963137,
+              "y": 0.0015100390883162618,
+              "z": -1.51003897190094
+            }
+          }
+        ],
+        "TimerRunning": false,
+        "CurrentTimerTime": 0.0,
+        "TargetTimerTime": 0.0,
+        "TimerActionId": "",
+        "TimerBlueprintId": "",
+        "SubprintIndex": 0,
+        "Status": "",
+        "StatusEffects": []
+      },
+      {
+        "UniqueId": "2967e9ad-5e4",
+        "ParentUniqueId": "9c08d866-767",
+        "BoardId": "main",
+        "CardPrefabId": "spear",
+        "CardPosition": {
+          "x": -3.639508008956909,
+          "y": 0.03468688949942589,
+          "z": 0.5931116342544556
+        },
+        "FaceUp": true,
+        "IsFoil": false,
+        "ExtraCardData": [],
+        "TimerRunning": false,
+        "CurrentTimerTime": 0.0,
+        "TargetTimerTime": 0.0,
+        "TimerActionId": "",
+        "TimerBlueprintId": "",
+        "SubprintIndex": 0,
+        "Status": "",
+        "StatusEffects": []
+      },
+      {
+        "UniqueId": "f2cdf8bd-ea6",
+        "ParentUniqueId": "",
+        "BoardId": "main",
+        "CardPrefabId": "campfire",
+        "CardPosition": {
+          "x": -0.9864270091056824,
+          "y": 0.0003180794883519411,
+          "z": -0.31807947158813479
+        },
+        "FaceUp": true,
+        "IsFoil": false,
+        "ExtraCardData": [],
+        "TimerRunning": false,
+        "CurrentTimerTime": 0.0,
+        "TargetTimerTime": 10.0,
+        "TimerActionId": "",
+        "TimerBlueprintId": "",
+        "SubprintIndex": 0,
+        "Status": "",
+        "StatusEffects": []
+      },
+      {
+        "UniqueId": "9761bae1-6b7",
+        "ParentUniqueId": "",
+        "BoardId": "main",
+        "CardPrefabId": "quarry",
+        "CardPosition": {
+          "x": -0.9530581831932068,
+          "y": -0.0005504818982444704,
+          "z": 0.5504818558692932
+        },
+        "FaceUp": true,
+        "IsFoil": false,
+        "ExtraCardData": [
+          {
+            "AttributeId": "amount",
+            "StringValue": "",
+            "IntValue": 3,
+            "FloatValue": 0.0,
+            "VectorValue": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          }
+        ],
+        "TimerRunning": false,
+        "CurrentTimerTime": 0.0,
+        "TargetTimerTime": 15.0,
+        "TimerActionId": "",
+        "TimerBlueprintId": "",
+        "SubprintIndex": 0,
+        "Status": "",
+        "StatusEffects": []
+      },
+      {
+        "UniqueId": "7135a9f3-0f6",
+        "ParentUniqueId": "59103ab5-c48",
+        "BoardId": "main",
+        "CardPrefabId": "stone",
+        "CardPosition": {
+          "x": -3.639508008956909,
+          "y": 0.0046868883073329929,
+          "z": 1.1931116580963135
+        },
+        "FaceUp": true,
+        "IsFoil": false,
+        "ExtraCardData": [],
+        "TimerRunning": false,
+        "CurrentTimerTime": 0.0,
+        "TargetTimerTime": 0.0,
+        "TimerActionId": "",
+        "TimerBlueprintId": "",
+        "SubprintIndex": 0,
+        "Status": "",
+        "StatusEffects": []
+      },
+      {
+        "UniqueId": "4d2a696f-902",
+        "ParentUniqueId": "",
+        "BoardId": "main",
+        "CardPrefabId": "soil",
+        "CardPosition": {
+          "x": -4.191136837005615,
+          "y": 0.002239380031824112,
+          "z": -2.2393798828125
+        },
+        "FaceUp": true,
+        "IsFoil": false,
+        "ExtraCardData": [],
+        "TimerRunning": false,
+        "CurrentTimerTime": 0.0,
+        "TargetTimerTime": 120.0,
+        "TimerActionId": "",
+        "TimerBlueprintId": "",
+        "SubprintIndex": 0,
+        "Status": "",
+        "StatusEffects": []
+      },
+      {
+        "UniqueId": "d1fdf47d-9a6",
+        "ParentUniqueId": "f2ba6fa8-aed",
+        "BoardId": "main",
+        "CardPrefabId": "berry",
+        "CardPosition": {
+          "x": -1.9717581272125245,
+          "y": 0.022695031017065049,
+          "z": 0.8249690532684326
+        },
+        "FaceUp": true,
+        "IsFoil": false,
+        "ExtraCardData": [
+          {
+            "AttributeId": "food_value",
+            "StringValue": "",
+            "IntValue": 1,
+            "FloatValue": 0.0,
+            "VectorValue": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          {
+            "AttributeId": "spoil_time",
+            "StringValue": "",
+            "IntValue": 0,
+            "FloatValue": 0.0,
+            "VectorValue": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          }
+        ],
+        "TimerRunning": false,
+        "CurrentTimerTime": 0.0,
+        "TargetTimerTime": 0.0,
+        "TimerActionId": "",
+        "TimerBlueprintId": "",
+        "SubprintIndex": 0,
+        "Status": "",
+        "StatusEffects": []
+      },
+      {
+        "UniqueId": "1f29c83f-c09",
+        "ParentUniqueId": "7135a9f3-0f6",
+        "BoardId": "main",
+        "CardPrefabId": "stick",
+        "CardPosition": {
+          "x": -3.639508008956909,
+          "y": 0.010686888359487057,
+          "z": 1.073111653327942
+        },
+        "FaceUp": true,
+        "IsFoil": false,
+        "ExtraCardData": [],
+        "TimerRunning": false,
+        "CurrentTimerTime": 0.0,
+        "TargetTimerTime": 0.0,
+        "TimerActionId": "",
+        "TimerBlueprintId": "",
+        "SubprintIndex": 0,
+        "Status": "",
+        "StatusEffects": []
+      },
+      {
+        "UniqueId": "982c8e9e-6f5",
+        "ParentUniqueId": "",
+        "BoardId": "main",
+        "CardPrefabId": "rabbit",
+        "CardPosition": {
+          "x": 0.8210636377334595,
+          "y": -0.00085271499119699,
+          "z": 0.8527149558067322
+        },
+        "FaceUp": true,
+        "IsFoil": false,
+        "ExtraCardData": [
+          {
+            "AttributeId": "createtimer",
+            "StringValue": "",
+            "IntValue": 0,
+            "FloatValue": 96.90644836425781,
+            "VectorValue": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          {
+            "AttributeId": "health",
+            "StringValue": "",
+            "IntValue": 1,
+            "FloatValue": 0.0,
+            "VectorValue": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          {
+            "AttributeId": "attack_timer",
+            "StringValue": "",
+            "IntValue": 0,
+            "FloatValue": 0.6735393404960632,
+            "VectorValue": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          {
+            "AttributeId": "combat_start_position",
+            "StringValue": "",
+            "IntValue": 0,
+            "FloatValue": 0.0,
+            "VectorValue": {
+              "x": 0.8210636377334595,
+              "y": -0.00085271499119699,
+              "z": 0.8527149558067322
+            }
+          }
+        ],
+        "TimerRunning": false,
+        "CurrentTimerTime": 0.0,
+        "TargetTimerTime": 0.0,
+        "TimerActionId": "",
+        "TimerBlueprintId": "",
+        "SubprintIndex": 0,
+        "Status": "",
+        "StatusEffects": []
+      },
+      {
+        "UniqueId": "59103ab5-c48",
+        "ParentUniqueId": "",
+        "BoardId": "main",
+        "CardPrefabId": "flint",
+        "CardPosition": {
+          "x": -3.639508008956909,
+          "y": -0.0013131117448210717,
+          "z": 1.313111662864685
+        },
+        "FaceUp": true,
+        "IsFoil": false,
+        "ExtraCardData": [],
+        "TimerRunning": false,
+        "CurrentTimerTime": 0.0,
+        "TargetTimerTime": 0.0,
+        "TimerActionId": "",
+        "TimerBlueprintId": "",
+        "SubprintIndex": 0,
+        "Status": "",
+        "StatusEffects": []
+      },
+      {
+        "UniqueId": "bf7d47dc-84e",
+        "ParentUniqueId": "",
+        "BoardId": "main",
+        "CardPrefabId": "berrybush",
+        "CardPosition": {
+          "x": -3.5677926540374758,
+          "y": 0.0018906110199168325,
+          "z": -1.890610933303833
+        },
+        "FaceUp": true,
+        "IsFoil": false,
+        "ExtraCardData": [
+          {
+            "AttributeId": "amount",
+            "StringValue": "",
+            "IntValue": 3,
+            "FloatValue": 0.0,
+            "VectorValue": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          }
+        ],
+        "TimerRunning": false,
+        "CurrentTimerTime": 0.0,
+        "TargetTimerTime": 0.0,
+        "TimerActionId": "",
+        "TimerBlueprintId": "",
+        "SubprintIndex": 0,
+        "Status": "",
+        "StatusEffects": []
+      },
+      {
+        "UniqueId": "602fb2fa-f6b",
+        "ParentUniqueId": "",
+        "BoardId": "main",
+        "CardPrefabId": "carrot",
+        "CardPosition": {
+          "x": -1.9717581272125245,
+          "y": -0.0013049691915512086,
+          "z": 1.304969072341919
+        },
+        "FaceUp": true,
+        "IsFoil": false,
+        "ExtraCardData": [
+          {
+            "AttributeId": "food_value",
+            "StringValue": "",
+            "IntValue": 2,
+            "FloatValue": 0.0,
+            "VectorValue": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          {
+            "AttributeId": "spoil_time",
+            "StringValue": "",
+            "IntValue": 0,
+            "FloatValue": 0.0,
+            "VectorValue": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          }
+        ],
+        "TimerRunning": false,
+        "CurrentTimerTime": 0.0,
+        "TargetTimerTime": 0.0,
+        "TimerActionId": "",
+        "TimerBlueprintId": "",
+        "SubprintIndex": 0,
+        "Status": "",
+        "StatusEffects": []
+      },
+      {
+        "UniqueId": "f2ba6fa8-aed",
+        "ParentUniqueId": "c3b7161f-c49",
+        "BoardId": "main",
+        "CardPrefabId": "raw_meat",
+        "CardPosition": {
+          "x": -1.9717581272125245,
+          "y": 0.01669503003358841,
+          "z": 0.9449690580368042
+        },
+        "FaceUp": true,
+        "IsFoil": false,
+        "ExtraCardData": [
+          {
+            "AttributeId": "food_value",
+            "StringValue": "",
+            "IntValue": 0,
+            "FloatValue": 0.0,
+            "VectorValue": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          {
+            "AttributeId": "spoil_time",
+            "StringValue": "",
+            "IntValue": 0,
+            "FloatValue": 0.0,
+            "VectorValue": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          }
+        ],
+        "TimerRunning": false,
+        "CurrentTimerTime": 0.0,
+        "TargetTimerTime": 0.0,
+        "TimerActionId": "",
+        "TimerBlueprintId": "",
+        "SubprintIndex": 0,
+        "Status": "",
+        "StatusEffects": []
+      },
+      {
+        "UniqueId": "10a8efe5-e31",
+        "ParentUniqueId": "",
+        "BoardId": "main",
+        "CardPrefabId": "cow",
+        "CardPosition": {
+          "x": 3.095198154449463,
+          "y": 0.0016935745952650905,
+          "z": -1.6935745477676392
+        },
+        "FaceUp": true,
+        "IsFoil": false,
+        "ExtraCardData": [
+          {
+            "AttributeId": "createtimer",
+            "StringValue": "",
+            "IntValue": 0,
+            "FloatValue": 8.597334861755371,
+            "VectorValue": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          {
+            "AttributeId": "health",
+            "StringValue": "",
+            "IntValue": 5,
+            "FloatValue": 0.0,
+            "VectorValue": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          {
+            "AttributeId": "attack_timer",
+            "StringValue": "",
+            "IntValue": 0,
+            "FloatValue": 0.0,
+            "VectorValue": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          {
+            "AttributeId": "combat_start_position",
+            "StringValue": "",
+            "IntValue": 0,
+            "FloatValue": 0.0,
+            "VectorValue": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          }
+        ],
+        "TimerRunning": false,
+        "CurrentTimerTime": 0.0,
+        "TargetTimerTime": 0.0,
+        "TimerActionId": "",
+        "TimerBlueprintId": "",
+        "SubprintIndex": 0,
+        "Status": "",
+        "StatusEffects": []
+      },
+      {
+        "UniqueId": "893aa8b4-211",
+        "ParentUniqueId": "602fb2fa-f6b",
+        "BoardId": "main",
+        "CardPrefabId": "milk",
+        "CardPosition": {
+          "x": -1.9717581272125245,
+          "y": 0.004695030860602856,
+          "z": 1.1849690675735474
+        },
+        "FaceUp": true,
+        "IsFoil": false,
+        "ExtraCardData": [
+          {
+            "AttributeId": "food_value",
+            "StringValue": "",
+            "IntValue": 1,
+            "FloatValue": 0.0,
+            "VectorValue": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          {
+            "AttributeId": "spoil_time",
+            "StringValue": "",
+            "IntValue": 0,
+            "FloatValue": 0.0,
+            "VectorValue": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          }
+        ],
+        "TimerRunning": false,
+        "CurrentTimerTime": 0.0,
+        "TargetTimerTime": 0.0,
+        "TimerActionId": "",
+        "TimerBlueprintId": "",
+        "SubprintIndex": 0,
+        "Status": "",
+        "StatusEffects": []
+      },
+      {
+        "UniqueId": "f7d1c9cc-527",
+        "ParentUniqueId": "",
+        "BoardId": "main",
+        "CardPrefabId": "apple_tree",
+        "CardPosition": {
+          "x": -4.191136837005615,
+          "y": 0.0011930260807275773,
+          "z": -1.193026065826416
+        },
+        "FaceUp": true,
+        "IsFoil": false,
+        "ExtraCardData": [
+          {
+            "AttributeId": "amount",
+            "StringValue": "",
+            "IntValue": 3,
+            "FloatValue": 0.0,
+            "VectorValue": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          }
+        ],
+        "TimerRunning": false,
+        "CurrentTimerTime": 0.0,
+        "TargetTimerTime": 0.0,
+        "TimerActionId": "",
+        "TimerBlueprintId": "",
+        "SubprintIndex": 0,
+        "Status": "",
+        "StatusEffects": []
+      },
+      {
+        "UniqueId": "c3b7161f-c49",
+        "ParentUniqueId": "893aa8b4-211",
+        "BoardId": "main",
+        "CardPrefabId": "apple",
+        "CardPosition": {
+          "x": -1.9717581272125245,
+          "y": 0.01069503091275692,
+          "z": 1.0649690628051758
+        },
+        "FaceUp": true,
+        "IsFoil": false,
+        "ExtraCardData": [
+          {
+            "AttributeId": "food_value",
+            "StringValue": "",
+            "IntValue": 2,
+            "FloatValue": 0.0,
+            "VectorValue": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          {
+            "AttributeId": "spoil_time",
+            "StringValue": "",
+            "IntValue": 0,
+            "FloatValue": 0.0,
+            "VectorValue": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          }
+        ],
+        "TimerRunning": false,
+        "CurrentTimerTime": 0.0,
+        "TargetTimerTime": 0.0,
+        "TimerActionId": "",
+        "TimerBlueprintId": "",
+        "SubprintIndex": 0,
+        "Status": "",
+        "StatusEffects": []
+      },
+      {
+        "UniqueId": "a572f559-511",
+        "ParentUniqueId": "",
+        "BoardId": "main",
+        "CardPrefabId": "tree",
+        "CardPosition": {
+          "x": -3.89251446723938,
+          "y": 0.0004251490463502705,
+          "z": -0.42514902353286745
+        },
+        "FaceUp": true,
+        "IsFoil": false,
+        "ExtraCardData": [
+          {
+            "AttributeId": "amount",
+            "StringValue": "",
+            "IntValue": 2,
+            "FloatValue": 0.0,
+            "VectorValue": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          }
+        ],
+        "TimerRunning": false,
+        "CurrentTimerTime": 0.0,
+        "TargetTimerTime": 0.0,
+        "TimerActionId": "",
+        "TimerBlueprintId": "",
+        "SubprintIndex": 0,
+        "Status": "",
+        "StatusEffects": []
+      },
+      {
+        "UniqueId": "464ef961-0f7",
+        "ParentUniqueId": "",
+        "BoardId": "main",
+        "CardPrefabId": "lumbercamp",
+        "CardPosition": {
+          "x": -0.8778382539749146,
+          "y": -0.0013135893968865276,
+          "z": 1.313589334487915
+        },
+        "FaceUp": true,
+        "IsFoil": false,
+        "ExtraCardData": [
+          {
+            "AttributeId": "amount",
+            "StringValue": "",
+            "IntValue": 3,
+            "FloatValue": 0.0,
+            "VectorValue": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          }
+        ],
+        "TimerRunning": false,
+        "CurrentTimerTime": 0.0,
+        "TargetTimerTime": 15.0,
+        "TimerActionId": "",
+        "TimerBlueprintId": "",
+        "SubprintIndex": 0,
+        "Status": "",
+        "StatusEffects": []
+      },
+      {
+        "UniqueId": "9c08d866-767",
+        "ParentUniqueId": "590ab4e6-dfb",
+        "BoardId": "main",
+        "CardPrefabId": "poop",
+        "CardPosition": {
+          "x": -3.639508008956909,
+          "y": 0.02868688851594925,
+          "z": 0.7131116390228272
+        },
+        "FaceUp": true,
+        "IsFoil": false,
+        "ExtraCardData": [],
+        "TimerRunning": false,
+        "CurrentTimerTime": 0.0,
+        "TargetTimerTime": 0.0,
+        "TimerActionId": "",
+        "TimerBlueprintId": "",
+        "SubprintIndex": 0,
+        "Status": "",
+        "StatusEffects": []
+      },
+      {
+        "UniqueId": "23f227e9-fe4",
+        "ParentUniqueId": "1f29c83f-c09",
+        "BoardId": "main",
+        "CardPrefabId": "wood",
+        "CardPosition": {
+          "x": -3.639508008956909,
+          "y": 0.01668688841164112,
+          "z": 0.9531116485595703
+        },
+        "FaceUp": true,
+        "IsFoil": false,
+        "ExtraCardData": [],
+        "TimerRunning": false,
+        "CurrentTimerTime": 0.0,
+        "TargetTimerTime": 0.0,
+        "TimerActionId": "",
+        "TimerBlueprintId": "",
+        "SubprintIndex": 0,
+        "Status": "",
+        "StatusEffects": []
+      },
+      {
+        "UniqueId": "9e6e6555-14b",
+        "ParentUniqueId": "",
+        "BoardId": "main",
+        "CardPrefabId": "coin_chest",
+        "CardPosition": {
+          "x": -2.8631367683410646,
+          "y": -0.0004986627609468997,
+          "z": 0.4986627399921417
+        },
+        "FaceUp": true,
+        "IsFoil": false,
+        "ExtraCardData": [
+          {
+            "AttributeId": "coin_count",
+            "StringValue": "",
+            "IntValue": 100,
+            "FloatValue": 0.0,
+            "VectorValue": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          }
+        ],
+        "TimerRunning": false,
+        "CurrentTimerTime": 0.0,
+        "TargetTimerTime": 0.0,
+        "TimerActionId": "",
+        "TimerBlueprintId": "",
+        "SubprintIndex": 0,
+        "Status": "",
+        "StatusEffects": []
+      },
+      {
+        "UniqueId": "35decb0d-d27",
+        "ParentUniqueId": "d1fdf47d-9a6",
+        "BoardId": "main",
+        "CardPrefabId": "milk",
+        "CardPosition": {
+          "x": -1.9717581272125245,
+          "y": 0.028695032000541688,
+          "z": 0.704969048500061
+        },
+        "FaceUp": true,
+        "IsFoil": false,
+        "ExtraCardData": [
+          {
+            "AttributeId": "food_value",
+            "StringValue": "",
+            "IntValue": 1,
+            "FloatValue": 0.0,
+            "VectorValue": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          {
+            "AttributeId": "spoil_time",
+            "StringValue": "",
+            "IntValue": 0,
+            "FloatValue": 0.0,
+            "VectorValue": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          }
+        ],
+        "TimerRunning": false,
+        "CurrentTimerTime": 0.0,
+        "TargetTimerTime": 0.0,
+        "TimerActionId": "",
+        "TimerBlueprintId": "",
+        "SubprintIndex": 0,
+        "Status": "",
+        "StatusEffects": []
+      },
+      {
+        "UniqueId": "590ab4e6-dfb",
+        "ParentUniqueId": "23f227e9-fe4",
+        "BoardId": "main",
+        "CardPrefabId": "bone",
+        "CardPosition": {
+          "x": -3.639508008956909,
+          "y": 0.02268688753247261,
+          "z": 0.8331116437911987
+        },
+        "FaceUp": true,
+        "IsFoil": false,
+        "ExtraCardData": [],
+        "TimerRunning": false,
+        "CurrentTimerTime": 0.0,
+        "TargetTimerTime": 0.0,
+        "TimerActionId": "",
+        "TimerBlueprintId": "",
+        "SubprintIndex": 0,
+        "Status": "",
+        "StatusEffects": []
+      },
+      {
+        "UniqueId": "86cf796c-ccf",
+        "ParentUniqueId": "9e6e6555-14b",
+        "BoardId": "main",
+        "CardPrefabId": "coin_chest",
+        "CardPosition": {
+          "x": -2.8631367683410646,
+          "y": 0.0055013373494148258,
+          "z": 0.37866273522377016
+        },
+        "FaceUp": true,
+        "IsFoil": false,
+        "ExtraCardData": [
+          {
+            "AttributeId": "coin_count",
+            "StringValue": "",
+            "IntValue": 4,
+            "FloatValue": 0.0,
+            "VectorValue": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          }
+        ],
+        "TimerRunning": false,
+        "CurrentTimerTime": 0.0,
+        "TargetTimerTime": 0.0,
+        "TimerActionId": "",
+        "TimerBlueprintId": "",
+        "SubprintIndex": 0,
+        "Status": "",
+        "StatusEffects": []
+      },
+      {
+        "UniqueId": "f08be877-e1c",
+        "ParentUniqueId": "",
+        "BoardId": "main",
+        "CardPrefabId": "rat",
+        "CardPosition": {
+          "x": 3.504002809524536,
+          "y": -0.00035017155460081995,
+          "z": 0.3501715362071991
+        },
+        "FaceUp": true,
+        "IsFoil": false,
+        "ExtraCardData": [
+          {
+            "AttributeId": "health",
+            "StringValue": "",
+            "IntValue": 3,
+            "FloatValue": 0.0,
+            "VectorValue": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          {
+            "AttributeId": "attack_timer",
+            "StringValue": "",
+            "IntValue": 0,
+            "FloatValue": 0.0,
+            "VectorValue": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          {
+            "AttributeId": "combat_start_position",
+            "StringValue": "",
+            "IntValue": 0,
+            "FloatValue": 0.0,
+            "VectorValue": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          }
+        ],
+        "TimerRunning": false,
+        "CurrentTimerTime": 0.0,
+        "TargetTimerTime": 0.0,
+        "TimerActionId": "",
+        "TimerBlueprintId": "",
+        "SubprintIndex": 0,
+        "Status": "",
+        "StatusEffects": []
+      }
+    ],
+    "SavedBoosters": [],
+    "BoughtBoosterIds": [
+      "basic",
+      "basic",
+      "idea",
+      "idea",
+      "idea",
+      "idea",
+      "basic",
+      "idea",
+      "idea",
+      "basic",
+      "farming",
+      "farming",
+      "farming",
+      "basic"
+    ],
+    "GivenCards": [],
+    "CurrentMonth": 1,
+    "MonthTimer": -1.7976931348623157e+308,
+    "QuestsCompleted": 19,
+    "NewCardsFound": 34,
+    "CurrentBoardId": "main",
+    "RunOptions": {
+      "MoonLength": 2,
+      "IsPeacefulMode": false
+    },
+    "RunVariables": {
+      "CrabsKilled": 0,
+      "PirateBoatsBribed": 0,
+      "VisitedIsland": false,
+      "LastGoToBoardMonth": 0,
+      "PirateBoatsSpawned": 0
+    },
+    "ExtraKeyValues": []
+  },
+  "CompletedAchievementIds": [
+    "open_starter_pack",
+    "second_villager",
+    "3_villagers",
+    "pick_berrybush",
+    "carve_stick",
+    "punch_rock",
+    "buy_booster",
+    "punch_tree",
+    "sell_card",
+    "have_5_food",
+    "start_campfire",
+    "have_5_ideas",
+    "create_quarry",
+    "have_10_stone",
+    "have_10_ideas",
+    "plant_berry_bush",
+    "have_10_food",
+    "have_10_gold",
+    "have_20_food",
+    "have_30_gold",
+    "create_lumbercamp",
+    "have_50_gold"
+  ],
+  "FoundCardIds": [
+    "villager",
+    "berrybush",
+    "rock",
+    "wood",
+    "gold",
+    "berry",
+    "stick",
+    "tree",
+    "spear",
+    "blueprint_carving",
+    "flint",
+    "blueprint_garden",
+    "blueprint_campfire",
+    "stone",
+    "blueprint_coinchest",
+    "campfire",
+    "blueprint_planks",
+    "blueprint_quarry",
+    "quarry",
+    "blueprint_house",
+    "blueprint_shed",
+    "soil",
+    "charcoal",
+    "blueprint_brick",
+    "blueprint_chicken",
+    "blueprint_woodenweapons",
+    "poop",
+    "blueprint_lumbercamp",
+    "rabbit",
+    "carrot",
+    "apple",
+    "raw_meat",
+    "cow",
+    "apple_tree",
+    "milk",
+    "lumbercamp",
+    "coin_chest",
+    "bone",
+    "rat"
+  ],
+  "FoundBoosterIds": [
+    "starter",
+    "basic",
+    "idea",
+    "farming"
+  ],
+  "NewCardopediaIds": [
+    "villager",
+    "wood",
+    "gold",
+    "berry",
+    "stick",
+    "tree",
+    "spear",
+    "blueprint_carving",
+    "flint",
+    "blueprint_garden",
+    "blueprint_campfire",
+    "stone",
+    "blueprint_coinchest",
+    "campfire",
+    "blueprint_planks",
+    "blueprint_quarry",
+    "quarry",
+    "blueprint_house",
+    "blueprint_shed",
+    "charcoal",
+    "blueprint_brick",
+    "blueprint_chicken",
+    "blueprint_woodenweapons",
+    "poop",
+    "blueprint_lumbercamp",
+    "rabbit",
+    "carrot",
+    "apple",
+    "raw_meat",
+    "cow",
+    "apple_tree",
+    "milk",
+    "lumbercamp",
+    "coin_chest",
+    "bone",
+    "rat"
+  ],
+  "NewKnowledgeIds": [
+    "blueprint_carving",
+    "blueprint_garden",
+    "blueprint_coinchest",
+    "blueprint_planks",
+    "blueprint_brick",
+    "blueprint_woodenweapons"
+  ],
+  "SeenQuestIds": [],
+  "ExtraKeyValues": [],
+  "GotIslandIntroPack": false,
+  "LastSavedUtcTicks": 638829236812696170
+}
