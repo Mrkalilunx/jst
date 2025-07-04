@@ -71,6 +71,8 @@ static void print_value(cJSON* item) {
 
 static void print_children(cJSON* item, int depth, int current_depth, 
                           const int* is_last_list, cJSON* parent, int idx) {
+    (void)parent;
+    (void)idx;
     if (current_depth > max_depth) return;
 
     cJSON* child = item->child;
