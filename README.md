@@ -177,15 +177,3 @@ jst/
 ## 贡献
 
 欢迎提交 Issue 和 Pull Request！
-
-## 许可证
-
-MIT License
-
-## 作者
-
-悠悠的小球球
-
-## 致谢
-
-感谢 [cJSON](https://github.com/DaveGamble/cJSON) 项目提供的优秀 JSON 解析库。
