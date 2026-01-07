@@ -35,7 +35,7 @@ make
 make clean
 ```
 
-编译完成后，会在当前目录生成可执行文件 `json_tree`。
+编译完成后，会在当前目录生成可执行文件 `jst`。
 
 ## 使用方法
 
@@ -43,19 +43,19 @@ make clean
 
 ```bash
 # 查看文件
-./json_tree example.json
+./jst example.json
 
 # 从标准输入读取
-cat example.json | ./json_tree
+cat example.json | ./jst
 
 # 使用管道
-curl -s https://api.example.com/data | ./json_tree
+curl -s https://api.example.com/data | ./jst
 ```
 
 ### 命令行选项
 
 ```bash
-./json_tree [选项] [文件路径]
+./jst [选项] [文件路径]
 ```
 
 可用选项：
@@ -67,13 +67,13 @@ curl -s https://api.example.com/data | ./json_tree
 
 ```bash
 # 使用丰富颜色模式
-./json_tree -c rich data.json
+./jst -c rich data.json
 
 # 限制显示深度为 3 层
-./json_tree -d 3 data.json
+./jst -d 3 data.json
 
 # 无颜色输出（适合重定向到文件）
-./json_tree -c none data.json > output.txt
+./jst -c none data.json > output.txt
 ```
 
 ## 颜色模式
