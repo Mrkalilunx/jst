@@ -2,7 +2,6 @@
 
 一款高效的命令行 JSON 树状查看器，可将 JSON 文件以带有颜色高亮的树形结构展示，帮助开发者更直观地查看和理解 JSON 数据结构。
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Language](https://img.shields.io/badge/language-C-orange.svg)
 
 ## 功能特性
