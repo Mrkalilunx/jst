@@ -6,7 +6,7 @@
 #include "cJSON.h"
 
 void print_tree(cJSON* item, int depth, int is_last, int current_depth, 
-               const int* is_last_list, cJSON* parent, int idx);
-void print_tree_with_root(cJSON* root);
+               const int* is_last_list, cJSON* parent, int idx, const optarg_config* config);
+void print_tree_with_root(cJSON* root, const optarg_config* config);
 
 #endif

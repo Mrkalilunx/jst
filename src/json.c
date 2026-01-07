@@ -1,4 +1,4 @@
-#include "json.h"
+#include <json.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -19,8 +19,35 @@ static const ValueReplacement REPLACEMENTS[] = {
 static const size_t REPLACEMENT_COUNT = sizeof(REPLACEMENTS) / sizeof(REPLACEMENTS[0]);
 
 static int is_valid_boundary(const char* data, size_t pos, size_t len) {
-    return (pos == 0 || !isalnum((unsigned char)data[pos-1])) &&
-           (pos + len == strlen(data) || !isalnum((unsigned char)data[pos+len]));
+    return (pos == 0 || !isalnum((unsigned char)data[pos - 1])) &&
+           (pos + len == strlen(data) || !isalnum((unsigned char)data[pos + len]));
+}
+
+static int try_replace(const char* input, size_t input_len, size_t pos,
+                      char* output, size_t* out_pos, size_t* output_size) {
+    for (size_t j = 0; j < REPLACEMENT_COUNT; j++) {
+        const char* illegal = REPLACEMENTS[j].illegal;
+        size_t illegal_len = strlen(illegal);
+        
+        if (pos + illegal_len > input_len) continue;
+        if (strncmp(&input[pos], illegal, illegal_len) != 0) continue;
+        if (!is_valid_boundary(input, pos, illegal_len)) continue;
+        
+        const char* replacement = REPLACEMENTS[j].replacement;
+        size_t replacement_len = strlen(replacement);
+        
+        if (*out_pos + replacement_len >= *output_size) {
+            *output_size = *out_pos + replacement_len + 1024;
+            char* new_output = realloc(output, *output_size);
+            if (!new_output) return 0;
+            output = new_output;
+        }
+        
+        memcpy(&output[*out_pos], replacement, replacement_len);
+        *out_pos += replacement_len;
+        return 1;
+    }
+    return 0;
 }
 
 char* preprocess_json(const char* json_data) {
@@ -57,36 +84,17 @@ char* preprocess_json(const char* json_data) {
             continue;
         }
 
-        int replaced = 0;
-        for (size_t j = 0; j < REPLACEMENT_COUNT; j++) {
-            const char* illegal = REPLACEMENTS[j].illegal;
-            size_t illegal_len = strlen(illegal);
-            
-            if (i + illegal_len > input_len) continue;
-            if (strncmp(&json_data[i], illegal, illegal_len) != 0) continue;
-            if (!is_valid_boundary(json_data, i, illegal_len)) continue;
-            
-            const char* replacement = REPLACEMENTS[j].replacement;
-            size_t replacement_len = strlen(replacement);
-            
-            if (out_pos + replacement_len >= output_size) {
-                output_size = out_pos + replacement_len + 1024;
-                char* new_output = realloc(output, output_size);
-                if (!new_output) {
-                    free(output);
-                    return NULL;
+        if (try_replace(json_data, input_len, i, output, &out_pos, &output_size)) {
+            const char* illegal = REPLACEMENTS[0].illegal;
+            for (size_t j = 0; j < REPLACEMENT_COUNT; j++) {
+                if (strncmp(&json_data[i], REPLACEMENTS[j].illegal, strlen(REPLACEMENTS[j].illegal)) == 0) {
+                    illegal = REPLACEMENTS[j].illegal;
+                    break;
                 }
-                output = new_output;
             }
-            
-            memcpy(&output[out_pos], replacement, replacement_len);
-            out_pos += replacement_len;
-            i += illegal_len - 1;
-            replaced = 1;
-            break;
+            i += strlen(illegal) - 1;
+            continue;
         }
-        
-        if (replaced) continue;
         
         if (json_data[i] == '"') {
             in_string = 1;

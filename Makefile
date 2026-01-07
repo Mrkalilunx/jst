@@ -1,26 +1,27 @@
 # Compiler settings
 CC = gcc
-CFLAGS = -Wall -Wextra -g -Ithird_party/cJSON -Isrc/core -Isrc/json
+CFLAGS = -Wall -Wextra -g -Ithird_party/cJSON -Isrc/include
 LDFLAGS = 
 
 # Source directories
 SRC_DIR = src
-CORE_DIR = $(SRC_DIR)/core
-JSON_DIR = $(SRC_DIR)/json
 THIRD_PARTY_DIR = third_party/cJSON
 
 # Source files
-CORE_SRCS = $(CORE_DIR)/args.c $(CORE_DIR)/color.c $(CORE_DIR)/file.c \
-            $(CORE_DIR)/tree.c $(CORE_DIR)/util.c
-JSON_SRCS = $(JSON_DIR)/json.c
-THIRD_PARTY_SRCS = $(THIRD_PARTY_DIR)/cJSON.c
-MAIN_SRC = $(SRC_DIR)/main.c
+SRCS = $(SRC_DIR)/main.c \
+       $(SRC_DIR)/args.c \
+       $(SRC_DIR)/color.c \
+       $(SRC_DIR)/file.c \
+       $(SRC_DIR)/tree.c \
+       $(SRC_DIR)/util.c \
+       $(SRC_DIR)/json.c \
+       $(THIRD_PARTY_DIR)/cJSON.c
 
 # Object files
-OBJS = $(CORE_SRCS:.c=.o) $(JSON_SRCS:.c=.o) $(THIRD_PARTY_SRCS:.c=.o) $(MAIN_SRC:.c=.o)
+OBJS = $(SRCS:.c=.o)
 
 # Target executable
-TARGET = json_tree
+TARGET = jst
 
 .PHONY: all clean
 
