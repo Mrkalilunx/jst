@@ -1,6 +1,6 @@
-# JST - JSON Tree Tool
+# JSON Tree Tool
 
-JST (JSON Tree Tool) is a lightweight command-line JSON tree viewer with color highlighting and customizable themes. Written in pure C with minimal dependencies, it provides clear tree-structured visualization of JSON data in the terminal.
+This is a lightweight command-line JSON tree viewer with color highlighting and customizable themes. Written in pure C with minimal dependencies, it provides clear tree-structured visualization of JSON data in the terminal.
 
 ## Features
 
