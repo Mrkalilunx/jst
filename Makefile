@@ -1,21 +1,14 @@
 # Compiler settings
 CC = gcc
-CFLAGS = -Wall -Wextra -g -Ithird_party/cJSON -Isrc/include
-LDFLAGS = 
-
-# Source directories
-SRC_DIR = src
-THIRD_PARTY_DIR = third_party/cJSON
+CFLAGS = -Wall -Wextra -g -Isrc -Ithird_party/cJSON
+LDFLAGS = -lm
 
 # Source files
-SRCS = $(SRC_DIR)/main.c \
-       $(SRC_DIR)/args.c \
-       $(SRC_DIR)/color.c \
-       $(SRC_DIR)/file.c \
-       $(SRC_DIR)/tree.c \
-       $(SRC_DIR)/util.c \
-       $(SRC_DIR)/json.c \
-       $(THIRD_PARTY_DIR)/cJSON.c
+SRCS = src/main.c \
+       src/Rjson.c \
+       src/cJSON.c \
+       src/config.c \
+       src/clr.c
 
 # Object files
 OBJS = $(SRCS:.c=.o)
@@ -23,15 +16,26 @@ OBJS = $(SRCS:.c=.o)
 # Target executable
 TARGET = jst
 
+# Verbose output
+V ?= 0
+ifeq ($(V),1)
+Q =
+else
+Q = @
+endif
+
 .PHONY: all clean
 
 all: $(TARGET)
 
 $(TARGET): $(OBJS)
-	$(CC) $(CFLAGS) -o $@ $^ $(LDFLAGS)
+	@echo "  CC    $@"
+	$(Q)$(CC) $(CFLAGS) -o $@ $^ $(LDFLAGS)
 
 %.o: %.c
-	$(CC) $(CFLAGS) -c -o $@ $<
+	@echo "  CC    $<"
+	$(Q)$(CC) $(CFLAGS) -c -o $@ $<
 
 clean:
-	rm -f $(OBJS) $(TARGET)
+	@echo "  CLEAN"
+	$(Q)rm -f $(OBJS) $(TARGET)

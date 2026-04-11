@@ -1,0 +1,1 @@
+{"id": 1, "name": "Product A", "price": 99.99, "inStock": true, "tags": ["electronics", "computer", "laptop"], "specs": {"cpu": "Intel i7", "ram": "16GB", "storage": "512GB SSD"}, "rating": null, "lastUpdated": "2024-01-15T10:30:00Z"}

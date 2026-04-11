@@ -1,0 +1,1 @@
+{"nullValue": null, "boolTrue": true, "boolFalse": false, "intPositive": 42, "intNegative": -17, "intZero": 0, "floatPositive": 3.14159, "floatNegative": -2.71828, "floatZero": 0.0, "floatScientific": 0.000123, "emptyString": "", "normalString": "Hello, World!", "unicodeString": "你好，世界！🌍", "specialChars": "Line1\nLine2\tTabbed", "quoteString": "He said \"Hello\""}
